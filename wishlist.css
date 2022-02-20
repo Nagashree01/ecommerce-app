@@ -1,0 +1,29 @@
+header{
+    overflow: hidden;
+}
+.wishlist-item{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+}
+.card-information{
+    justify-content: center;
+}
+.card-horizontal{
+    width: 30%;
+    height: 30vh;
+}
+
+
+
+@media screen and (max-width: 1168px) {
+    html{
+        font-size: x-small;
+    }
+    .wishlist-item{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
