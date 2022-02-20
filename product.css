@@ -28,9 +28,7 @@
 
 .product-list {
     margin-left: 2rem;
-    padding-left: 20%;
-    padding-top: 2rem;
-    padding-right: 2rem;
+    padding: 2rem 2rem 0 20%;
 }
 
 .all-products {
