@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="https://magic-ui-123.netlify.app/components/components.css">
+    <script src="https://kit.fontawesome.com/17153d09ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/product.css">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- navigation bar -->
+    <header>
+        <nav class="navigation-container">
+            <div class="nav-header">
+                <a href="/index.html" class="nav-title text-size-l text-center">The Berry Store</a>
+            </div>
+            <div class="search-container">
+                
+                <input type="search" name="search" placeholder="search " class="search-input input-area ">
+            </div>
+            <div class="nav-right-links">
+                <button class="btn link-btn"><a class="text-style-none text-size-m" href="" target="_blank">Login</a></button>
+                <a href="" class="nav-links">
+                    <div class="badge">
+                        <i class="fas fa-heart badge-icon"></i>
+                        <span class="badge-number">3</span>
+                        
+                    </div>
+                </a>
+                <a href="" class="nav-links">
+                    <div class="badge">
+                        <i class="fas fa-shopping-cart badge-icon"></i>
+                        <span class="badge-number">3</span>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- sidebar -->
+        <aside class="sidebar-filters flex">
+            <div class="product-filters">
+                <h4 class="text-size-sm">Filters</h4>
+                <button class="btn btn-link">Clear</button>
+            </div>
+            <!-- filter by price -->
+            <div class="filter-by-price">
+                <div class="slider-container">
+                    <input type="range" min="50" max="150" class="slider">
+                </div>
+            </div>
+            <!-- filter by category -->
+            <div class="filter-by-category">
+                <div class="filter-name text-size-sm">Category</div>
+                <div class="input-select-type">
+                    <input type="checkbox" class="input-checkbox" name="category-type">
+                    <label>Category 1</label>
+                </div>
+                <div class="input-select-type">
+                    <input type="checkbox" class="input-checkbox"  name="category-type">
+                    <label>Category 2</label>
+                </div>
+                <div class="input-select-type">
+                    <input type="checkbox" class="input-checkbox"  name="category-type">
+                    <label>Category 3</label>
+                </div>
+            </div>
+            <!-- filter by ratings -->
+            <div class="filter-by-rating">
+                <div class="filter-name">Rating</div>
+                <div class="input-select-type">
+                    <input type="radio" class="input-radio" name="ratings">
+                    <label>4 Stars and Above</label>
+                </div>
+                <div class="input-select-type">
+                    <input type="radio" class="input-radio" name="ratings">
+                    <label>3 Stars and Above</label>
+                </div>
+                <div class="input-select-type">
+                    <input type="radio" class="input-radio" name="ratings">
+                    <label>2 Stars and Above</label>
+                </div>
+                <div class="input-select-type">
+                    <input type="radio" class="input-radio" name="ratings">
+                    <label>1 Stars and Above</label>
+                </div>
+            </div>
+            <!-- sort by price -->
+            <div class="filter-by-price">
+                <div class="filter-name">Sort By Price</div>
+                <div class="input-select-type">
+                    <input type="radio" class="input-radio" name="price-sort" >
+                    <label>Price- High to Low</label>
+                </div>
+                <div class="input-select-type">
+                    <input type="radio" class="input-radio" name="price-sort">
+                    <label>Price- Low to High</label>
+                </div>
+            </div>
+            
+            
+        </aside>
+
+
+        <!-- lists of products -->
+        <div class="product-list">
+            <h1 class="heading-showing-all-products">Showing All Products</h1>
+            <div class="all-products flex">
+                <div class="card card-vertical">
+                    <img src="https://picsum.photos/id/1080/200/300" alt="card image" class="img card-image">
+                    <span class="card-badge">Best Seller</span>
+                    <div class="card-information">
+                        <div class="card-heading">
+                            Strawberry
+                        </div>
+                        <div class="card-description">
+                            Fresh from Farm
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <span class="card-discount-price">Rs.999</span>
+                        <del class="card-actual-price">Rs. 1999</del>
+                        <span class="card-discount-percentage">50% Off</span>
+                    </div>
+                    <div class="card-buttons">
+                        <button class="btn btn-primary">Add to Cart</button>
+                
+                        <button class="btn btn-icon"><i class="fas fa-heart"></i></button>
+                        <button class="btn btn-icon"><i class="fas fa-share-alt"></i></button>
+                    </div>
+                </div>
+                <div class="card card-vertical">
+                    <img src="https://picsum.photos/id/75/250/300" alt="card image" class="img card-image">
+                    
+                    <div class="card-information">
+                        <div class="card-heading">
+                            Strawberry
+                        </div>
+                        <div class="card-description">
+                            Fresh from Farm
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <span class="card-discount-price">Rs.999</span>
+                        <del class="card-actual-price">Rs. 1999</del>
+                        <span class="card-discount-percentage">50% Off</span>
+                    </div>
+                    <div class="card-buttons">
+                        <button class="btn btn-primary">Add to Cart</button>
+                        <button class="btn btn-icon"><i class="fas fa-heart"></i></button>
+                        <button class="btn btn-icon"><i class="fas fa-share-alt"></i></button>
+                    </div>
+                </div>
+                <div class="card card-vertical">
+                    <img src="https://picsum.photos/id/1080/200/300" alt="card image" class="img card-image">
+                    
+                    <div class="card-information">
+                        <div class="card-heading">
+                            Strawberry
+                        </div>
+                        <div class="card-description">
+                            Fresh from Farm
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <span class="card-discount-price">Rs.999</span>
+                        <del class="card-actual-price">Rs. 1999</del>
+                        <span class="card-discount-percentage">50% Off</span>
+                    </div>
+                    <div class="card-buttons">
+                        <button class="btn btn-primary">Add to Cart</button>
+                
+                        <button class="btn btn-icon"><i class="fas fa-heart"></i></button>
+                        <button class="btn btn-icon"><i class="fas fa-share-alt"></i></button>
+                    </div>
+                </div>
+                <div class="card card-vertical">
+                    <img src="https://picsum.photos/id/1080/200/300" alt="card image" class="img card-image">
+                    
+                    <div class="card-information">
+                        <div class="card-heading">
+                            Strawberry
+                        </div>
+                        <div class="card-description">
+                            Fresh from Farm
+                        </div>
+                    </div>
+                    <div class="card-price">
+                        <span class="card-discount-price">Rs.999</span>
+                        <del class="card-actual-price">Rs. 1999</del>
+                        <span class="card-discount-percentage">50% Off</span>
+                    </div>
+                    <div class="card-buttons">
+                        <button class="btn btn-primary">Add to Cart</button>
+                
+                        <button class="btn btn-icon"><i class="fas fa-heart"></i></button>
+                        <button class="btn btn-icon"><i class="fas fa-share-alt"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
