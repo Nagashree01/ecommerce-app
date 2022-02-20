@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://magic-ui-123.netlify.app/components/components.css">
+    <script src="https://kit.fontawesome.com/17153d09ec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/login.css">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <header>
+        <nav class="navigation-container">
+            <div class="nav-header">
+                <a href="/index.html" class="nav-title text-size-l text-center">The Berry Store</a>
+            </div>
+            <div class="search-container">
+
+                <input type="search" name="search" placeholder="search " class="search-input input-area ">
+            </div>
+            <div class="nav-right-links">
+                <button class="btn link-btn"><a class="text-style-none text-size-m" href="/login.html"
+                        target="_blank">Login</a></button>
+                <a href="/wishlist.html" class="nav-links">
+                    <div class="badge">
+                        <i class="fas fa-heart badge-icon"></i>
+                        <span class="badge-number">3</span>
+
+                    </div>
+                </a>
+                <a href="/cart.html" class="nav-links">
+                    <div class="badge">
+                        <i class="fas fa-shopping-cart badge-icon"></i>
+                        <span class="badge-number">3</span>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="login-container">
+        <form action="" method="get" class="form-div">
+            <h1 class="text-center">Signup</h1>
+
+            <div class="input-view">
+                <label for="email" class="label-name">Email ID:</label>
+                <input id="email" class="input-area" type="email" placeholder="Enter your Email here" required />
+            </div>
+
+            <div class="input-view">
+                <label for="password" class="label-name">Password:</label>
+                <input id="password" class="input-area" type="password" placeholder="Enter password" required />
+            </div>
+
+            <div class="input-view">
+                <label for="password" class="label-name">Re-enter Password:</label>
+                <input id="password" class="input-area" type="password" placeholder="Re-enter password" required />
+            </div>
+
+            <div class="sign-uplink-container">
+                <div class="checkbox-view">
+                    <input type="checkbox" class="input-checkbox">
+                    <label>I accept all terms and condition</label>
+                </div>
+                
+            </div>
+
+            <button class="btn btn-primary login-btn">Create New Account</button>
+            <div><a href="/login.html" class="text-decoration-none">Already have a new account <i class="fas fa-angle-right"></i></a></div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

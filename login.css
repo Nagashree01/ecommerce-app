@@ -1,0 +1,43 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem;
+    
+}
+.form-div{
+    border: 1px solid var(--black-color);
+    padding: 2rem;
+    width: 35%;
+}
+
+.input-area{
+    width: 100%;
+    display: block;
+}
+
+.label-name{
+    font-weight: 500;
+}
+
+.sign-uplink-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.input-view{
+    padding:0.5rem 0rem;
+}
+.login-btn{
+    display: inline;
+    width: 100%;
+    margin: 0.5rem 0 ;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 1168px) {
+    
+    .login-container{
+        justify-content: flex-start;
+    }
+}
