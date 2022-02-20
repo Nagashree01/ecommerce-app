@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://magic-ui-123.netlify.app/components/components.css">
+    <script src="https://kit.fontawesome.com/17153d09ec.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/cart.css">
+    
+</head>
+<body>
+    <!-- navigation bar -->
+    <header>
+        <nav class="navigation-container">
+            <div class="nav-header">
+                <a href="" class="nav-title text-size-l text-center">The Berry Store</a>
+            </div>
+            <div class="search-container">
+                
+                <input type="search" name="search" placeholder="search " class="search-input input-area ">
+            </div>
+            <div class="nav-right-links">
+                <button class="btn link-btn"><a class="text-style-none text-size-m" href="" target="_blank">Login</a></button>
+                <a href="/wishlist.html" class="nav-links">
+                    <div class="badge">
+                        <i class="fas fa-heart badge-icon"></i>
+                        <span class="badge-number">3</span>
+                        
+                    </div>
+                </a>
+                <a href="/cart.html" class="nav-links">
+                    <div class="badge">
+                        <i class="fas fa-shopping-cart badge-icon"></i>
+                        <span class="badge-number">3</span>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- cart -->
+    <div class="cart-container">
+        <h3 class="text-center text-size-m">Cart</h3>
+        <div class="cart-items">
+            <div class="cart-items-list">
+                <div class="card card-horizontal ">
+                <img src="https://picsum.photos/id/429/250/300" alt="Raspberry" class="img card-image">
+                <div class="card-information">
+                    <div class="card-heading">
+                        Raspberry
+                    </div>
+                    <div class="card-description">
+                        Fresh from Farm 
+                    </div>
+                    <div class="card-price">
+                        <span class="card-discount-price">Rs.150</span>
+                        <del class="card-actual-price">Rs.200</del>
+                        <span class="card-discount-percentage">25% Off</span>
+                    </div>
+                    <div class="card-button">
+                        <button class="btn btn-primary">Remove from cart</button>
+                        <button class="btn btn-secondary">Add to wishlist</button>
+                    </div>
+                </div>
+           
+            </div>
+
+            <div class="card card-horizontal ">
+                <img src="https://picsum.photos/id/75/250/300" alt="blackberry" class="img card-image">
+                <div class="card-information">
+                    <div class="card-heading">
+                        Blackberry
+                    </div>
+                    <div class="card-description">
+                        Fresh from Farm 
+                    </div>
+                    <div class="card-price">
+                        <span class="card-discount-price">Rs.150</span>
+                        <del class="card-actual-price">Rs.250</del>
+                        <span class="card-discount-percentage">25% Off</span>
+                    </div>
+                    <div class="card-button">
+                        <button class="btn btn-primary ">Remove from cart</button>
+                        <button class="btn btn-secondary">Add to wishlist</button>
+                    </div>
+                </div>
+           
+            </div>
+            </div>
+
+
+            <!-- price -->
+            <div class="order">
+                <div class="order-details">
+                    <h3 class="text-center">Order Details</h3>
+                    <hr>
+                    <div class="price-details">
+                        <div>
+                            <p>Price (2 items)</p>
+                            <p>Rs.300</p>
+                        </div>
+                        <div>
+                            <p>Discount</p>
+                            <p>-Rs.100</p>
+                        </div>
+                        <div>
+                            <p>Delivery Charge</p>
+                            <p>Rs.50</p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h4>Total Amount</h4>
+                            <h4>Rs.250</h4>
+                        </div>
+                        <hr>
+                        <p>You save Rs.100 on this order</p>
+                        <button class="btn btn-primary place-order-btn">Place Order</button>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>
